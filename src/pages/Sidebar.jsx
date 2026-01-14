@@ -96,7 +96,7 @@
 //             transition={{ duration: 0.5 }}
 //             className="bg-gradient-to-r from-blue-200 to-cyan-400 text-transparent bg-clip-text font-serif drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
 //           >
-//             Irohub
+//             
 //           </motion.span>
 //           <motion.span
 //             initial={{ opacity: 0, y: 20 }}
@@ -614,7 +614,7 @@ function Sidebar() {
               !isOpen ? "opacity-0 hidden" : "opacity-100"
             }`}
           >
-            Irohub CRM
+            CRM
           </div>
           <button
             onClick={() => setIsOpen(!isOpen)}
